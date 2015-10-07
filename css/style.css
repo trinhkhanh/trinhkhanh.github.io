@@ -1,0 +1,11 @@
+img.product{
+	max-width: 300px;
+	max-height: 300px;
+	border: solid blue;
+}
+
+img.show-product{
+	max-width: 300px;
+	max-height: 300px;
+	border: solid blue;
+}
