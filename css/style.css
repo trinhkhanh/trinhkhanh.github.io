@@ -13,6 +13,7 @@ h1{
 #main-menu{
 	background: pink;
 	margin-bottom: 12px;
+	width: 600px;
 }
 a:link {
     text-decoration: none;
