@@ -18,10 +18,12 @@ h1{
 	
 }
 a:link {
-	padding-right: 50px;
-	padding-left: 49px;
+	display: block;
+	width: 215.5px;
 	text-decoration: none;
 	font-size: 24px;
+	text-align: center;
+	margin: auto;
 	}
 	
 a:hover {
