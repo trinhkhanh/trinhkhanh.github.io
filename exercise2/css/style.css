@@ -44,6 +44,9 @@ img{
 .post-inline {
 	float: left;
 }
+.post-name {
+	padding-left: 70px;
+}
 
 span{
   color: red;
