@@ -1,7 +1,7 @@
   *{margin: 0; padding: 0}*
 
 
-#banner img, #main-menu{
+#banner img{
   	width: 900px;
   	margin: auto;
   	display: block;
@@ -13,7 +13,9 @@ h1{
 #main-menu{
 	background: pink;
 	margin-bottom: 12px;
-	width: 800px;
+	width: 850px;
+	margin: auto;
+	
 }
 a:link {
 	padding-right: 50px;
@@ -30,11 +32,10 @@ a:hover {
   margin: auto;
   display: block;
 }
-.post-img img{
-  width: 200px;
+img{
+  width: 245px;
   height: 200px;
-  float: left;
-  margin: 50px;
+  margin: 30px;
   
 }
 
@@ -45,6 +46,7 @@ a:hover {
 span{
   color: red;
   font-size: 20px;
+  padding-left: 10px;
 }
 
 .wrap{
