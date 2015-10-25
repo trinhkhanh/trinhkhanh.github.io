@@ -1,0 +1,59 @@
+
+
+#banner img{
+  	width: 900px;
+	height: 300px;
+  	margin: auto;
+  	display: block;
+  }
+  
+ h1{
+	text-align: center;
+	color: blue;
+	height: 60px;
+	position: relative;
+ }
+ 
+img.post-img{
+	width: 500px;
+	height: 500px;
+	display: block;
+	margin-left: 300px;
+ }
+ 
+#main-menu a:link {
+	display: block;
+	padding-left: 50px;
+	margin-bottom: 10px;
+	text-decoration: none;
+	font-size: 20px;
+	background-color: #FF704D;
+	}
+	
+#main-menu a:hover {
+    background-color: #FF704D;
+}
+
+#main-menu{
+	width: 250px;
+	position: absolute;
+	top: 400px;
+	left: 20px;
+}
+
+span{
+	color: red;
+	font-size: 20px;
+}
+
+
+#chat {
+	position: fixed;
+	right: 30px;
+	bottom: 10px;
+}
+
+#chat a:link{
+text-decoration: none;
+}
+}
