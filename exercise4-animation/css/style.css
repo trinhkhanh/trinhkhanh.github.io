@@ -1,0 +1,60 @@
+*{margin: 0; padding:0;}
+img.post-charecter1{
+position: absolute;
+top: 100px;
+right: 20px;
+-webkit-animation: move 10s infinite; /* Chrome, Safari, Opera */
+animation: move 10s infinite;
+}
+
+img.post-charecter2{
+position: absolute;
+top: 120px;
+left: 20px;
+-webkit-animation: fly 20s infinite; /* Chrome, Safari, Opera */
+animation: fly 20s infinite;
+}
+
+img.post-charecter3{
+position: absolute;
+top: 250px;
+right: 30px;
+-webkit-animation: move 30s infinite; /* Chrome, Safari, Opera */
+animation: move 30s infinite;
+}
+div img.post-charecter2, img.post-charecter3{
+	width: 70px;
+	height: 60px;
+	
+}
+div img.post-charecter1{
+	width: 200px;
+	height: 150px;
+}
+img.post-footer{
+width: 100%;
+height: 700px;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes move {
+    from {right: 20px;}
+    to {right: 3000px;}
+}
+
+/* Standard syntax */
+@keyframes move {
+    from {right: 20px;}
+    to {right: 3000px;}
+}
+
+@-webkit-keyframes fly {
+    from {left: 20px;}
+    to {left: 3000px;}
+}
+
+/* Standard syntax */
+@keyframes fly {
+    from {left: 20px;}
+    to {left: 3000px;}
+}
