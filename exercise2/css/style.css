@@ -9,22 +9,28 @@
   }
 h1{
 	text-align: center;
+	height: 50px;
+	margin-top: 10px;
 }
 #main-menu{
 	background: pink;
 	margin-bottom: 12px;
-	width: 850px;
+	width: 840px;
 	margin: auto;
 	
 }
-a:link {
-	padding-left: 55px;
-	padding-right: 56.5px;
+#main-menu a:link {
+	display: block;
+	width: 200px;
+	margin-right: 2px;
+	background-color: pink;
+	float: left;
+	text-align: center;
 	text-decoration: none;
 	font-size: 24px;
 	}
 	
-a:hover {
+#main-menu a:hover {
     background-color: #FF704D;
 }
 #main-content{
@@ -32,13 +38,20 @@ a:hover {
   margin: auto;
   display: block;
 }
-img{
-  width: 270px;
-  height: 200px;
-  margin: 25px;
-  
+
+.post-img img{
+width: 270px;
+height: 200px;
+margin: 20px;
+border: 1px solid #ddd;
+opacity: 1;
+transition: opacity 1s linear; 
+float: left;
 }
 
+.post-img:hover img{
+	opacity: 0.5;
+}
 .post-inline {
 	float: left;
 }
