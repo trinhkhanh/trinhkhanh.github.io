@@ -2,10 +2,10 @@
 
 
 #banner img{
-  	width: 900px;
-  	margin: auto;
-  	display: block;
-
+width: 900px;
+height: 270px;
+margin: auto;
+display: block;
   }
 h1{
 	text-align: center;
