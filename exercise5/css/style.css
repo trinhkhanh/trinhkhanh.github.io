@@ -72,35 +72,34 @@ float: right;
 
 /* Chrome, Safari, Opera */
 @-webkit-keyframes move1 {
-    50%  {left:0px; top:-700px;}
-    75%  {left:0px; top:-700px;}
-    100% {left:0px; top:-600px;}
+    50%  {left:0px; top:-700px; opacity: 0.5;}
+    75%  {left:0px; top:-700px; opacity: 0.7;}
+    100% {left:0px; top:-600px; opacity: 1.0}
 }
 
 /* Standard syntax */
 @keyframes move1 {
-
-    50%  {left:0px; top:-700px;}
-    75%  {left:0px; top:-700px;}
-    100% {left:0px; top:-600px;}
+	50%  {left:0px; top:-700px; opacity: 0.5;}
+    75%  {left:0px; top:-700px; opacity: 0.7;}
+    100% {left:0px; top:-600px; opacity: 1.0}
 }
 
 /* Chrome, Safari, Opera */
 @-webkit-keyframes move2 {
-    0%   {left:200px; top:0px;}
-    25%  {left:200px; top:-500px;}
-    50%  {left:200px; top:-700px;}
-    75%  {left:200px; top:-200px;}
-    100% {left:200px; top:-100px;}
+    0%   {left:200px; top:0px; opacity:0;}
+    25%  {left:200px; top:-500px; opacity:0.4;}
+    50%  {left:200px; top:-700px;opacity:0.6;}
+    75%  {left:200px; top:-200px;opacity:0.8;}
+    100% {left:200px; top:-100px;opacity:1.0;}
 }
 
 /* Standard syntax */
 @keyframes move2 {
-	0%   {left:200px; top:0px;}
-    25%  {left: 200px; top:-500px;}
-    50%  {left: 200px; top:-700px;}
-    75%  {left: 200px; top:-200px;}
-    100% {left:200px; top:-100px;}
+    0%   {left:200px; top:0px; opacity:0;}
+    25%  {left:200px; top:-500px; opacity:0.4;}
+    50%  {left:200px; top:-700px;opacity:0.6;}
+    75%  {left:200px; top:-200px;opacity:0.8;}
+    100% {left:200px; top:-100px;opacity:1.0;}
 }
 .wrap-celebrate h2{
 text-align: center;
