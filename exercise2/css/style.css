@@ -45,12 +45,15 @@ height: 200px;
 margin: 20px;
 border: 1px solid #ddd;
 opacity: 1;
-transition: opacity 1s linear; 
+transition: opacity 1s linear;
 float: left;
+overflow; hidden;
 }
 
 .post-img:hover img{
 	opacity: 0.5;
+	max-width: 70%;
+
 }
 .post-inline {
 	float: left;
